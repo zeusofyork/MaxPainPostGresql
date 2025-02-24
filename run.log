@@ -1,0 +1,53 @@
+Traceback (most recent call last):
+  File "/home/zeus/Desktop/dev/MaxPainPostGresql/get_data.py", line 143, in <module>
+    scrape_maxpain()
+  File "/home/zeus/Desktop/dev/MaxPainPostGresql/get_data.py", line 77, in scrape_maxpain
+    driver = webdriver.Chrome(options=options)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/Desktop/pydev/virtual_environments/py3.12_venv/lib/python3.12/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+  File "/home/zeus/Desktop/pydev/virtual_environments/py3.12_venv/lib/python3.12/site-packages/selenium/webdriver/chromium/webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/zeus/Desktop/pydev/virtual_environments/py3.12_venv/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "/home/zeus/Desktop/pydev/virtual_environments/py3.12_venv/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 299, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/zeus/Desktop/pydev/virtual_environments/py3.12_venv/lib/python3.12/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/home/zeus/Desktop/pydev/virtual_environments/py3.12_venv/lib/python3.12/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created
+from unknown error: no chrome binary at /usr/bin/google-chrome
+Stacktrace:
+#0 0x5dfd7fc74f2a <unknown>
+#1 0x5dfd7f7550c0 <unknown>
+#2 0x5dfd7f78b469 <unknown>
+#3 0x5dfd7f789851 <unknown>
+#4 0x5dfd7f7d96e4 <unknown>
+#5 0x5dfd7f7d8c76 <unknown>
+#6 0x5dfd7f7cae33 <unknown>
+#7 0x5dfd7f796cc0 <unknown>
+#8 0x5dfd7f798471 <unknown>
+#9 0x5dfd7fc401df <unknown>
+#10 0x5dfd7fc442dd <unknown>
+#11 0x5dfd7fc2ce87 <unknown>
+#12 0x5dfd7fc44a4e <unknown>
+#13 0x5dfd7fc130fe <unknown>
+#14 0x5dfd7fc63908 <unknown>
+#15 0x5dfd7fc63b13 <unknown>
+#16 0x5dfd7fc73b9c <unknown>
+#17 0x7faf1928eac3 <unknown>
+
+Inserted: CHPT | Date: 02/28/2025 | Max Pain: 1.0 | Stock Price: 0.77 | Hit MaxPain: False | Date Updated: 2025-02-23 | Ticker Key: CHPT_02-28-2025_11-18-10
+Inserted: SPY | Date: 02/24/2025 | Max Pain: 609.0 | Stock Price: 600.28 | Hit MaxPain: False | Date Updated: 2025-02-23 | Ticker Key: SPY_02-24-2025_11-18-16
+Inserted: ALLO | Date: 03/21/2025 | Max Pain: 2.5 | Stock Price: 2.16 | Hit MaxPain: False | Date Updated: 2025-02-23 | Ticker Key: ALLO_03-21-2025_11-18-21
+Inserted: NKLA | Date: 02/28/2025 | Max Pain: 0.5 | Stock Price: 0.37 | Hit MaxPain: False | Date Updated: 2025-02-23 | Ticker Key: NKLA_02-28-2025_11-18-26
+Inserted: CHPT | Date: 02/28/2025 | Max Pain: 1.0 | Stock Price: 0.77 | Hit MaxPain: False | Date Updated: 2025-02-23 | Ticker Key: CHPT_02-28-2025_12-00-11
+Inserted: SPY | Date: 02/24/2025 | Max Pain: 609.0 | Stock Price: 600.28 | Hit MaxPain: False | Date Updated: 2025-02-23 | Ticker Key: SPY_02-24-2025_12-00-16
+Inserted: ALLO | Date: 03/21/2025 | Max Pain: 2.5 | Stock Price: 2.16 | Hit MaxPain: False | Date Updated: 2025-02-23 | Ticker Key: ALLO_03-21-2025_12-00-21
+Inserted: NKLA | Date: 02/28/2025 | Max Pain: 0.5 | Stock Price: 0.37 | Hit MaxPain: False | Date Updated: 2025-02-23 | Ticker Key: NKLA_02-28-2025_12-00-26
+Inserted: CHPT | Date: 02/28/2025 | Max Pain: 1.0 | Stock Price: 0.77 | Hit MaxPain: False | Date Updated: 2025-02-24 | Ticker Key: CHPT_02-28-2025_00-00-11
+Inserted: SPY | Date: 02/24/2025 | Max Pain: 609.0 | Stock Price: 600.28 | Hit MaxPain: False | Date Updated: 2025-02-24 | Ticker Key: SPY_02-24-2025_00-00-16
+Inserted: ALLO | Date: 03/21/2025 | Max Pain: 2.5 | Stock Price: 2.16 | Hit MaxPain: False | Date Updated: 2025-02-24 | Ticker Key: ALLO_03-21-2025_00-00-22
+Inserted: NKLA | Date: 02/28/2025 | Max Pain: 0.5 | Stock Price: 0.37 | Hit MaxPain: False | Date Updated: 2025-02-24 | Ticker Key: NKLA_02-28-2025_00-00-27
